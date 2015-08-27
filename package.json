@@ -1,0 +1,11 @@
+{
+  "name": "maxmli.com",
+  "version": "0.0.1",
+  "description": "max's website",
+  "main": "app.js",
+  "private": true,
+
+  "dependencies": {
+    "express": "^4.0.0"
+  }
+}
