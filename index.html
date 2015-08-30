@@ -18,11 +18,11 @@
 	  <div>A</div>
 	  <div>M</div>
 	</div> 
-  <div class='jumbotron'>
-    M a <br>
-    x m <br>
-    . l i
-  </div>
+    <div class='jumbotron'>
+      M a <br>
+      x m <br>
+      . l i
+    </div>
     <section class="container">
       <div id="prism">
         <figure class ='front'><span id='projects'>Projects</span></figure>
@@ -32,6 +32,7 @@
       <div id="triangle-right"></div>
       <div id="triangle-left"></div>
     </section>
+    <div class='hingeHead'></div>
     <script type="text/javascript">
       $(function(){
         var index1 = 0;
@@ -149,14 +150,7 @@
       cursor: pointer;
       cursor: hand;
     }
-    .jumbotron {
-      position: absolute;
-      left: 10%;
-      font-size: 12rem;
-      color: #fff;
-      line-height: 200px;
-      font-family: 'avenir light', helvetica, sans-serif;
-    }
+
     .front {
       transform: translateZ(0px) rotateY(0deg);
       transition: transform .5s;
@@ -194,7 +188,23 @@
       top: 40%;
       left: 23%;
     }
-
+    .jumbotron {
+      position: absolute;
+      left: 10%;
+      font-size: 12rem;
+      color: #fff;
+      line-height: 250px;
+      font-family: 'avenir light', helvetica, sans-serif;
+    }
+    .hingeHead{
+      display: block;
+      position: absolute;
+      width: 700px;
+      height:700px;
+      top: 40%;
+      left:40%;
+      background: url(hingehead.svg);
+    }
 
     #load {
       position:absolute;
