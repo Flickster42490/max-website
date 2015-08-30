@@ -18,6 +18,11 @@
 	  <div>A</div>
 	  <div>M</div>
 	</div> 
+  <div class='jumbotron'>
+    M a <br>
+    x m <br>
+    . l i
+  </div>
     <section class="container">
       <div id="prism">
         <figure class ='front'><span id='projects'>Projects</span></figure>
@@ -101,9 +106,9 @@
     .container { 
       width: 300px;
       height: 300px;
+      position: absolute;
       left: 45%;
       top:20%;
-      position: absolute;
       perspective: 1000px;
     }
     #prism {
@@ -142,8 +147,14 @@
       border-right: 20px solid black;
       border-bottom: 20px solid transparent;
     }
-  
-
+    .jumbotron {
+      position: absolute;
+      left: 10%;
+      font-size: 200px;
+      color: #fff;
+      line-height: 200px;
+      font-family: 'avenir', helvetica, sans-serif;
+    }
     .front {
       transform: translateZ(0px) rotateY(0deg);
       transition: transform .5s;
